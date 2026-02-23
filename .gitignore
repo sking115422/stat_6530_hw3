@@ -1,0 +1,54 @@
+# ======================
+# LaTeX build artifacts
+# ======================
+
+# Core auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Bibliography / citations
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.nav
+*.snm
+
+# Index / glossaries
+*.idx
+*.ilg
+*.ind
+*.glg
+*.glo
+*.gls
+*.ist
+*.acn
+*.acr
+*.alg
+
+# LaTeXmk / latexrun
+.latexmkrc
+latex.out/
+
+# Temporary / backup files
+*.tmp
+*.bak
+*.backup
+*.sav
+*~
+*.swp
+*.swo
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.Rproj.user
